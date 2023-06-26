@@ -19,6 +19,8 @@ public class Main {
                 45,37,45,34,66);
         hogwartsStudent.slytherinStudent[2] = new SlytherinFaculty("Gregory Goyle",53,44,
                 54,51,47,59,67);
+        hogwartsStudent.slytherinStudent[2].setCunning(62);
+        hogwartsStudent.slytherinStudent[2].printStudentCharacter();
         hogwartsStudent.hufflepuffStudent[0] = new hufflepuffFaculty("Zachariah Smith", 43,41,
                 67,66,74);
         hogwartsStudent.hufflepuffStudent[1] = new hufflepuffFaculty("Cedric Diggory", 45,55,
